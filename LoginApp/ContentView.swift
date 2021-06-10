@@ -44,11 +44,11 @@ struct ButtonStart: View {
             Text(timer.buttonTitle)
                 .font(.system(size: 35))
                 .frame(width: 350, height: 60)
-                .foregroundColor(.white)
-                .background(Color.blue)
-                .cornerRadius(10)
-                .shadow(radius: 15)
         }
+        .foregroundColor(.white)
+        .background(Color.blue)
+        .cornerRadius(10)
+        .shadow(radius: 15)
     }
 }
 
